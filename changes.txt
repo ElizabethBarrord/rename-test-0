@@ -21,4 +21,7 @@ elizabethbarrord@Elizabeths-MacBook-Pro-4 rename-test-0 % cat .git/config
 
 and the remote is git@github.com:ElizabethBarrord/rename-test-3.git
 
-RESULT: fatal this did not work on desktop
+RESULT: fatal this did not work on desktop OR terminal
+
+  ElizabethBarrord/rename-test-2/git is not a valid repository name
+
