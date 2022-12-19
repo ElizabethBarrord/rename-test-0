@@ -1,0 +1,22 @@
+CHANGE
+- currently adding a change where the local /.git/congif is:
+
+elizabethbarrord@Elizabeths-MacBook-Pro-4 rename-test-0 % cat .git/config
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = git@github.com:ElizabethBarrord/rename-test-2/git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[lfs]
+	repositoryformatversion = 0
+
+
+and the remote is git@github.com:ElizabethBarrord/rename-test-3.git
